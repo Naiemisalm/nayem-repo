@@ -1,0 +1,176 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+ }
+ /*--------------------- main part --------------------- */
+ 
+ /* -----------header ---------------- */
+ .header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ ul li{
+     list-style: none;
+     display: inline;
+     padding-right: 50px;
+ }
+ ul li a {
+     text-decoration: none;
+     padding-left: 30px;
+     color: black;
+   
+ }
+ h2{
+     padding-left: 10px;
+ }
+ /* --------influencer-start -------- */
+ .container{
+     display: flex;
+     justify-content: center;
+ 
+ }
+ h3{
+     padding-left: 10px;
+ }
+ 
+ .camara img{
+     width: 400px;
+     padding-left: 80px;
+ }
+ .title-section{
+     font-size: 40px;
+ }
+ /* ----------Button section stert ------------- */
+ .button{
+     margin-top: 35px;
+ }
+ .button a{
+     text-decoration: none;
+     background-color: rgba(196, 22, 51, 0.856);
+     padding: 10px 30px;
+     border-radius: 40px;
+     color: white;
+ }
+ #icon{
+     padding-left: 20px;
+ }
+ .button-see {
+     margin-top: 80px;
+ }
+ .button-see a {
+     text-decoration: none;
+     font-size: 20px;
+     color: rgba(196, 22, 51, 0.856);
+    padding-left: 1000px;
+  
+ }
+ /* ----------Button Section End ----------- */
+ 
+ /* Logo Stert  */
+ 
+ .logo-style{
+     width: 1000px;
+     height: 100px;
+     border: 1px solid rgb(207, 205, 205);
+    padding-inline-start: 20px;
+    justify-content: center;
+ 
+   
+ }
+ .logos{
+     padding: 20px;
+ }
+ .logo{
+ margin: 30px;
+ }
+ /* ------Logo Style End -------------- */
+ /*---------------- Popular Collection--------------------- */
+ .thumblunm{
+     background-color: white;
+     width: 310px;
+     height: 500px;
+     border: 1px solid rgb(241, 236, 236);
+     margin-top: 20px;
+     border-radius: 10px;
+ }
+ .thumblunm{
+     padding-left: 30px;
+ }
+ 
+ h1{
+     text-align: center;
+     margin-top: 70px;
+ }
+ 
+ .star{
+     display: flex;
+   
+ }
+ .gap{
+     padding-left: 20px;
+ }
+ 
+ 
+ .ima{
+      width:16px;
+     height: 16px;
+ }
+ .reting{
+     padding-left: 20px;
+ 
+     
+ }
+ .more-collection{
+     background-color: rgba(153, 149, 149, 0.616);
+     width: 1000px;
+     justify-content: center;
+     padding-left: 80px;
+     grid-row-gap: 20px;
+     grid-column-gap: 15px;
+     display: grid;
+     grid-template-columns: repeat(3 ,1fr)
+ }
+ /* - Popular Collection- end  */
+ /*--------------------------------- footer start ---------------------- */
+ .fotter{
+     text-align: center;
+     margin-top: 70px;
+     background-color: rgb(33, 33, 156);
+     color: white;
+     padding: 20px 70px ;
+ }
+ .picture img{
+     width: 300px;
+     height: 200px; 
+ }
+     .container1{
+         display: flex;
+         margin-top: 100px;
+         justify-content: center;
+     }
+     .paragraph{
+         padding-left: 40px;
+     }
+     /*------------ Media Queris------------------ */
+ 
+     /*--------- Mobaile Device ---------------- */
+         @media only screen and (max-width:688px){
+             .header{
+                 justify-content: center;
+                 
+             }
+             .container{
+                 display: block;
+             }
+             .logo-style{
+                 display: grid;
+                 grid-template-rows: repeat(2 , 1fr);
+             }
+            .more-collection{
+                display: grid;
+                grid-template-columns: 2, 1fr;
+            }
+         }
+     
+ 
